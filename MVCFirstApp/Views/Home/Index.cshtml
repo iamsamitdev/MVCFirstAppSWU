@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <style>
+        body{
+            background-color: aqua
+        }
+        h1{
+            font-size: 60px;
+            font-weight: lighter
+        }
+        p{
+            border: 5px solid #ef16d7;
+            padding: 20px;
+            border-radius: 30px
+        }
+    </style>
+</head>
+<body>
+    <h1>@TempData["title"]</h1>
+    <h2>My Current time: @ViewData["mytime"]</h2>
+    <p>@ViewBag.Description</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut animi aliquid officiis vero odit ab quia iste pariatur vel? Rem praesentium animi laborum, reprehenderit est magnam nulla non. Quod, atque!
+    </p>
+</body>
+</html>
